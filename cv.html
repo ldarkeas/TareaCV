@@ -1,60 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Luis Eduardo Anariba Sevilla</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f4f8;
+            color: #343a40;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .imagen {
+            max-height: 200px;
+            width: auto;
+        }
+
+        .seccion {
+            background-color: #e8eff5;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+    </style>
 </head>
 
-
-
-
-
 <body>
-    <h1>CV - Luis Eduardo Anariba Sevilla</h1>
-    <hr>
-    <img src="./cv-imagen.jpg" alt="mifoto" height="200">
-    <hr>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <h1>CV - Luis Eduardo Anariba Sevilla</h1>
+            <hr>
+            <img src="./cv-imagen.jpg" alt="mifoto" class="img-fluid rounded-circle imagen">
+            <hr>
+        </div>
 
-    <h2>Contacto</h2>
-    <ul>
-    <li>lanariba@unah.hn</li>
-    <li>Barcelona, Castelldefels-5ta Calle</li>
-    <li>+1 7777-9999</li>
-    </ul>
-    <hr>
 
-    <h2>Estudios</h2>
-    <ul>
-        <h3>Primaria:</h3><li>Escula Rodrigo Antonio Cataneda</li>
-        <h3>Secundaria:</h3><li>Instituto Bernardo Galindo Galindo</li>
-        <h3>Universidad Cursante:</h3><li>Univeridad Nacional Autonoma de Honduras-VS</li>
-    </ul>
-    <hr>
 
-    <h2>Experiencia Laboral</h2>
-    <p>Sin experiencia en el area</p>
-    <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="seccion">
+                    <h2>Contacto</h2>
+                    <ul class="list-unstyled">
+                        <li><strong>Email:</strong> lanariba@unah.hn</li>
+                        <li><strong>Ubicación:</strong> Barcelona, Castelldefels-5ta Calle</li>
+                        <li><strong>Teléfono:</strong> +1 7777-9999</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="seccion">
+                    <h2>Estudios</h2>
+                    <ul class="list-unstyled">
+                        <li><strong>Primaria:</strong> Escuela Rodrigo Antonio Cataneda</li>
+                        <li><strong>Secundaria:</strong> Instituto Bernardo Galindo Galindo</li>
+                        <li><strong>Universidad Cursante:</strong> Universidad Nacional Autónoma de Honduras-VS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    <h2>Cursos Recibidos</h2>
-    <ul>
-        <li>Coursera-Programacion para principiantes-2017</li>
-        <li>dev.web-Curso HTML- 2024</li>
-        <li>IBGG-Curso de excel-2019</li>
-    </ul>
-    <hr>
 
-    <h2>Habilidades y otros aspectos</h2>
-    <ol>
-        <li>liderezgo</li>
-        <li>Comunicacion asertiva</li>
-        <li>Dedicado</li>
-        <li>Trabajador nato</li>
-        <li>Responsable</li>
-    </ol>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="seccion">
+                    <h2>Experiencia Laboral</h2>
+                    <p>Tienda de articulos  <a target="_blank" href="./tienda1.html">ir a tienda</a>  </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="seccion">
+                    <h2>Cursos Recibidos</h2>
+                    <ul class="list-unstyled">
+                        <li><strong>Coursera:</strong> Programación para principiantes (2017)</li>
+                        <li><strong>dev.web:</strong> Curso HTML (2024)</li>
+                        <li><strong>IBGG:</strong> Curso de Excel (2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="row">
+            <div class="col-12">
+                <div class="seccion">
+                    <h2>Habilidades y otros aspectos</h2>
+                    <ul class="list-unstyled">
+                        <li>Liderazgo</li>
+                        <li>Comunicación asertiva</li>
+                        <li>Dedicado</li>
+                        <li>Trabajador nato</li>
+                        <li>Responsable</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
+
 </body>
+
 </html>
+
